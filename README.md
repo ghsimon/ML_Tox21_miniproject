@@ -12,7 +12,7 @@ In this mini project, toxicity data for the Nuclear Receptor: Androgen Receptor 
 
 Link to the [paper](https://pubs.rsc.org/en/content/articlehtml/2018/sc/c7sc02664a).
 
-Dataset [website]{https://moleculenet.org/datasets-1} and [download](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/tox21.csv.gz).
+Dataset [website](https://moleculenet.org/datasets-1) and [download](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/tox21.csv.gz).
 
 
 ## Data Preprocessing
