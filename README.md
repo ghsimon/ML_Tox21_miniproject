@@ -1,6 +1,6 @@
 # ML mini project on toxicity classification for the Tox21 dataset
 
-Project was done in context of the course "Applied machine learning in chemistry SS 24" of Prof. Ariane Ferreira Nunes Alves (TU Berlin).
+The project was conducted in context of the course "Applied machine learning in chemistry SS 24" instructed by Prof. Ariane Ferreira Nunes Alves (TU Berlin).
 
 ## Dataset
 
