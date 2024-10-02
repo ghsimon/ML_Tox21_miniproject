@@ -43,12 +43,18 @@ Feature selection was done in the `RF_feature_select.ipynb` notebook. The 20 mos
 SMOTE (Synthetic Minority Over-sampling Technique) was tested to improve the performance of RF models 
 in imbalanced datasets. SMOTE addresses the issues with modeling the minority class (toxic) by generating synthetic minority class samples. Instead of simply duplicating the minority class samples, SMOTE creates new, synthetic data points by interpolating between existing samples in the minority class. This balances the class distribution in the training set, allowing the Random Forest model to learn from a more representative dataset. SMOTE was imported from the `imblearn` package and used to resample the training set. Model building, hyperparameter tuning and cross-validation were performed similar as before in the `SMOTE_RandForrClass.ipynb` and `SMOTE_RandForrClass_pipeline,ipynb` notebooks. Performance metrics are similar to those obtained without SMOTE, with obtained precisions showing a mild decrease. Feature selection was repeated in the `SMOTE_RF_feature_select.ipynb` notebook.
 
+## Neural Networks
+
+To improve sensitivity, Morgan molecular fingerprints of length 2048 where determined for each compound, and subsequently Neural Networks (NNs) were trained. In the `FP_NN_EarlyStopper.ipynb`, a neural network with 2048 input nodes, 1 output node and three hidden layers is built. Dropout layers and Early Stopping is used to avoid overfitting. A test sensitivity of 0.44 was obtained, which is the highest so far. The improved sensitivity seems to come at cost of precision, however.
+
+
 ## Prerequisite Software 
 
  - sklearn
  - rdkit
  - pickle
  - imblearn
+ - PyTorch
  
 
 ## Data Files
